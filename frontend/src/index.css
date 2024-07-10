@@ -15,7 +15,7 @@ code {
 
 
 .body-home {
-  background-image: url("../src/images/bg\ rava.png");
+  background-image: url("../src/public/bg\ rava.png");
   background-position: center;
   background-size: cover;
   width: 100%; /* Adjust as needed */
@@ -47,3 +47,119 @@ code {
   margin: 0px auto;     
   padding: 0px;                       
 }
+
+
+
+
+.Navbar {
+  background: #ffffff;
+  color: black;
+}
+.Navbar .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 8px 20px;
+  justify-content: space-between;
+  display: flex;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 75px;
+  height: auto;
+  justify-self: start;
+}
+
+.navbarMid{
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  font-size: xx-small;
+
+ }
+
+.navbarMid h1 {
+  margin: 0 10px;
+}
+
+.navbarRight{
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  font-size: xx-small;
+
+ }
+
+.navbarRight h1 {
+  margin: 0 10px;
+}
+
+
+.BlackNavbar {
+  background: #000000; /* Black background color */
+  color: #ffffff; /* White text color */
+}
+
+.BlackNavbar .container {
+  color: #ffffff;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 8px 20px;
+  justify-content: space-between;
+  display: flex;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.BlackNavbar .container .header a {
+  color: #ffffff; /* White text color for links */
+  text-decoration: none;
+}
+
+.BlackNavbar .container .pages {
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.BlackNavbar .logo {
+  width: 75px;
+  height: auto;
+  justify-self: start;
+}
+
+.BlackNavbar .navbarMid {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  font-size: xx-small;
+}
+
+.BlackNavbar .navbarMid h1 {
+  margin: 0 10px;
+  color: white;
+}
+
+.BlackNavbar .navbarRight {
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  font-size: xx-small;
+}
+
+.BlackNavbar .navbarRight h1 {
+  margin: 0 10px;
+  color: white;
+}
+
+
