@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.body-home {
+  background-image: url("../src/images/bg\ rava.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%; /* Adjust as needed */
+  height: 1000px;
+  font-family: "Mulish", sans-serif;
+}
+
+
+.Homepage {
+  color: #f6fcf9;
+  max-width: 12000px;
+  align-items: right;
+  margin-left: 50px;
+  font-family: "Mulish";
+  font-weight: 20;
+}
+
+.Homepage .Home-tagline1 {
+  margin: 40px auto;
+  margin-top: 390px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.Homepage .Home-tagline2 {
+  margin-bottom: 0px;
+  font-size: 30px;
+  margin: 0px auto;     
+  padding: 0px;                       
+}
