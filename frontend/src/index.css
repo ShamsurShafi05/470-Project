@@ -23,6 +23,36 @@ code {
   font-family: "Mulish", sans-serif;
 }
 
+body {
+  background: #ffffff;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #363636;
+
+}
+
+.body-event-main {
+  background-color: rgb(255, 255, 255);
+  background-image: none;
+  font-family: "Mulish", sans-serif;
+}
+
+.body-event, .body-club-main, .body-club {
+  background-image: none;
+  background-color: #ffffff;
+  font-family: "Mulish", sans-serif;
+}
+
+.body-about {
+  background-image: none;
+  background: linear-gradient(to bottom, black, darkblue 90%) 0 0 / 100% 90% no-repeat,
+              linear-gradient(to bottom, white 90%, white 90%) 0 90% / 100% 10% no-repeat;
+  font-family: "Mulish", sans-serif;
+  color: white;
+}
+
 
 .Homepage {
   color: #f6fcf9;
@@ -163,3 +193,489 @@ header a {
 }
 
 
+
+
+
+
+.readMore {
+  margin-top: 10px;
+  margin-left: 590px;
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+}
+
+.readLess {
+margin-top: 10px;
+margin-left: 590px;
+background-color: orangered;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+display: flex;
+justify-content: space-around;
+}
+
+
+/* ================================================ */
+
+
+.EventAboutandFAQ .About {
+  display: flex;
+  justify-content: space-between;
+}
+
+.EventAboutandFAQ .About .layer1{
+  width:700px;
+  margin-top: 10px;
+  box-shadow: turquoise;
+}
+
+.EventAboutandFAQ .Info .faq {
+  width: 700px;
+  border: 1px solid; /* Added 'solid' to specify the border style */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  transition: transform 0.3s ease; /* Added transition for smoother animation */
+}
+
+.EventAboutandFAQ .Info .faq:hover {
+  transform: translateY(-5px); /* Move the element 5 pixels up upon hover */
+}
+
+
+.EventAboutandFAQ .Info h2 {
+  margin-top: 20px;
+}
+
+/* ======================================================= */
+
+.PostQueriesAll h2 {
+  margin-top: 100px;
+}
+
+.PostQueriesAll .PostQueries1 .Query .text-box {
+  width: 60%; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.PostQueriesAll .PostQueries2 .Info .EachInfo{
+  width: auto;
+  border: 1px solid; /* Added 'solid' to specify the border style */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.PostQueriesAll .PostQueries2 .Info .EachInfo .CommentButtons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: white;
+}
+
+.PostQueriesAll .PostQueries2 .Info .EachInfo .Report{
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Add these styles to your existing stylesheet or use a styling solution of your choice */
+
+.PostQueriesAll .PostQueries2 .Info .EachInfo .Reply{
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.SubmitComment {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+
+}
+
+
+
+/* ================================================ */
+
+
+.event-card .EventCardLayer1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-card .EventCardLayer1Left {
+  width:600px;
+}
+
+.EventPicture img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.event-page .Upperpart {
+  text-align: center;
+}
+
+.event-page .Upperpart h1 {
+  font-size: 70px;
+}
+
+.event-page h2 {
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.special-letter {
+  color: orange;
+}
+
+
+/* ================================================ */
+
+.EventDeadline {
+  margin-top: 20px;
+  margin-right: 5px;
+  padding: 5px;
+  background: white;
+  text-align: center;
+}
+
+.EventDeadline .timeGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+  grid-gap: 5px;
+}
+
+.EventDeadline .timeHeading, .timeValue {
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.EventDeadline .timeHeading {
+  font-weight: bold;
+}
+
+.EventDeadline .failureText {
+  margin-top: 5px;
+  margin-right: 75px;
+  font-size: 30px;
+  padding: 20px;
+  color: red;
+  border-radius: 10px;
+  text-align: center;
+  animation: flicker-failure 1s infinite alternate;
+}
+
+@keyframes flicker-failure {
+  0% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
+.EventDeadline .RegisterEventButton{
+  display: inline-block;
+  padding: 15px 150px;
+  background: linear-gradient(to right, #ff8c00, #ff4500); /* Gradient background */
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+  transition: transform 0.3s ease-in-out; /* Add smooth hover effect */
+  margin-top: 20px;
+}
+
+.EventDeadline .RegisterEventButton:hover {
+  transform: scale(1.05); /* Add slight scale effect on hover */
+  background-color: orange; /* Change color as needed */
+  color: white;
+}
+
+
+
+.EventIncludes h2 {
+  margin-top: 50px;
+  font: bold;
+}
+
+.EventIncludes .Info {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Example grid columns */
+  grid-auto-flow: dense; /* Wrap grid items to next column when necessary */
+  grid-row-gap: 40 px;
+  grid-column-gap: 10px;
+}
+
+.EventIncludes .Info .EachInfo {
+  width: 230px;
+  border: 0.5px; /* Added 'solid' to specify the border style */
+  border-radius: 8px;
+  padding: 30px;
+  background-color: orange;
+  color: white;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease; /* Added transition for smoother animation */
+}
+
+.EventIncludes .Info .EachInfo:hover {
+  transform: translateY(-5px); /* Move the element 5 pixels up upon hover */
+}
+
+/* ================================================ */
+
+.EventKeyInfo {
+  width: 300px; /* Adjust the width as needed */
+  margin-top: 20px;
+  margin-right: 60px;
+  color: white;
+  background-color: rgba(0, 0, 0);
+  border: 1px solid; /* Added 'solid' to specify the border style */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(24, 2, 2, 0.5);
+  flex: 1 1 auto;
+  /* display: flex; Added flex display to center items */
+  align-items: center; /* Center items vertically */
+  /* justify-content: center; Center items horizontally */
+  justify-content: space-around;                                             /* NOT WORK */
+}
+
+.EventKeyInfo p {
+  text-align: justify; /* Justify text to ensure even spaces on both ends */
+  display: flex;
+  justify-content: space-around;
+  transition: transform 0.3s ease; /* Added transition for smoother animation */
+}
+
+.EventKeyInfo p:hover {
+  transform: translateY(-5px); /* Move the element 5 pixels up upon hover */
+}
+
+.EventKeyInfo a {
+  text-align: justify; /* Justify text to ensure even spaces on both ends */
+  display: flex;
+  justify-content: space-around;
+  transition: transform 0.3s ease; /* Added transition for smoother animation */
+}
+
+.EventKeyInfo a:hover {
+  transform: translateY(-5px); /* Move the element 5 pixels up upon hover */
+}
+
+
+.Interested {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 35%;
+}
+  
+.Interested :hover {
+  background-color: #45a049;
+}
+
+
+/* ================================================= */
+
+.events {
+  display: flex;
+  flex-direction: row;
+}
+
+/* ================================================= */
+
+
+.event-page .Upperpart h4 {
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.event-page h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.event-page .Info .InfoContent {
+  display: flex;
+
+  width: 100%; /* Set the width of the container */
+  overflow-x: auto; /* Enable horizontal scrolling (alomng x-axis nortesi */
+  white-space: normal; /* Allow wrapping */
+  word-wrap: break-word; /* Fallback for older browsers */
+  overflow-wrap: break-word; /* Ensure modern browsers handle wrapping */
+  margin-bottom: 50px;
+  
+}
+
+.event-page .Info .InfoContent .EachInfo .ImagePart {
+  width: 450px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  border: 1px solid #ccc; /* Border style */
+  padding: 5px; /* Padding around the image */
+  box-sizing: border-box; /* Include border and padding in width and height */
+}
+
+.event-page .Info .InfoContent .EachInfo .ImagePart img {
+  max-width: 100%; /* Ensure image does not exceed container width */
+  max-height: 100%; /* Ensure image does not exceed container height */
+  display: block; /* Prevents unwanted space below image */
+}
+
+.event-page .Info .InfoContent .EachInfo {
+
+  display: flex vertical;
+  width: 450px; /* Adjust the width as needed */
+  border: 0px solid; /* Added 'solid' to specify the border style */
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 0 0 20px #00000099;
+  align-items: center; /* Center items vertically */
+  margin-right: 50px;
+  flex-shrink: 0; /*no shrinking of box*/
+  background-color: whitesmoke; /*semi-transparent black*/
+  color: black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for transform and box-shadow */
+}
+
+.event-page .Info .InfoContent .EachInfo:hover {
+  transform: scale(1.1); /* Scale the element up by 10% upon hovering */
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5); /* Increase the shadow to enhance depth */
+}
+
+.event-page .Info .InfoContent .EachInfo .ContentPart h3 {
+  
+  font-size: 25px;
+  word-wrap: break-word;
+}
+
+.event-page .Info .InfoContent a {
+  color: blue;
+  position: relative;
+}
+
+.event-page .Info .InfoContent a::after {
+  content: '→'; /* Right arrow character */
+  font-size: 50px;
+  position: absolute;
+  right: -0em; /* Adjust position as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  color: orange;
+}
+
+
+/* ==================================== */
+
+
+
+.Calendar {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 150px;
+}
+
+.calendarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.calendarHeader button {
+  font-size: 1.5em;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.calendarGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.calendarDay {
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: black;
+  color: orange;
+  cursor: pointer;
+}
+
+.calendarDay.otherMonth {
+  color: #ccc;
+}
+
+.eventPopup {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.calendarDay:hover .eventPopup {
+  display: block;
+}
+
+.eventPopup div {
+  margin-bottom: 10px;
+}
+
+.eventPopup p {
+  margin: 0;
+}
+
+.eventPopup a {
+  color: #007bff;
+  text-decoration: none;
+}

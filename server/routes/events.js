@@ -6,7 +6,8 @@ const {
     getEvent,
     createEvent,
     deleteEvent,
-    updateEvent
+    updateEvent, 
+    findApprovedEvents
 } = require('../controllers/eventController')
  
 
@@ -28,6 +29,11 @@ router.delete('/:id', deleteEvent)
                                                           
 // PATCH an event
 router.patch('/:id', updateEvent)
+
+
+// GET approved events
+router.get('/approved', findApprovedEvents);
+
 
 
 module.exports = router

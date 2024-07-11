@@ -97,6 +97,24 @@ const updateEvent = async (req, res) => {
 }
 
 
+// Find approved events
+const findApprovedEvents = async (req, res) => {
+    try {
+        console.log("Finding approved events..."); // Debugging statement
+        const approvedEvents = await Event.find({ approval: 1 }).sort({ date: 1 });
+        console.log("Approved events found:", approvedEvents); // Debugging statement
+
+        if (approvedEvents.length === 0) {
+            return res.status(404).json({ error: 'No approved events found.' });
+        }
+
+        res.status(200).json(approvedEvents);
+    } catch (error) {
+        console.error('Error finding approved events:', error);
+        res.status(500).json({ error: 'Could not find approved events.' });
+    }
+}
+
 
 
 
@@ -105,5 +123,6 @@ module.exports = {
     getEvent,
     createEvent, 
     deleteEvent, 
-    updateEvent
+    updateEvent,
+    findApprovedEvents
 }
